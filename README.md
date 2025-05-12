@@ -33,4 +33,4 @@ Bu proje **Next.js** (React tabanlı) ile geliştirilmiş bir **frontend uygulam
 3. npm install
 4. npm run dev
 
-![Resim Açıklaması](/pataraCase.png)
+![Resim Açıklaması](./pataraCase.png)
