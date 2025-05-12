@@ -23,7 +23,7 @@ Bu proje **Next.js** (React tabanlı) ile geliştirilmiş bir **frontend uygulam
 
 ---
 ## Notlar
-   Tasarım elimden geldiğince en iyi şekilde yapmaya çalıştım. Bazı yerlerde örneğin, logo, yörünge ortasındaki resim, gradient arka planlar gibi kısımlarda kolaya kaçmış gibi görünebilirim. Gerçek hayat projesi olarak düşünmeye çalıştığım için projelermi genelde ileriye yönelik, geliştirilebilir kodlamayı sevdiğimden logo gibi kısımlarda kolaya kaçıp resim olarak indirdim.
+   Tasarımı elimden geldiğince özenle ve detaylara dikkat ederek oluşturmaya çalıştım. Gerçek hayattaki bir proje mantığıyla ilerlemeyi tercih ettiğim için kod yapısında sürdürülebilirlik ve geliştirilebilirlik önceliğim oldu. Bu nedenle bazı alanlarda — örneğin logo, yörünge içindeki görsel ya da gradient arka planlar gibi — daha hızlı ilerleyebilmek adına hazır görseller kullandım. Bu tercihler, asıl amacım olan mimari yapı ve kullanıcı deneyimine odaklanmamı sağladı.
 
 ## ⚙️ Projeyi Kurmak ve Çalıştırmak
 
