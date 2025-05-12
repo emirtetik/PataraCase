@@ -32,5 +32,5 @@ Bu proje **Next.js** (React tabanlı) ile geliştirilmiş bir **frontend uygulam
 2. cd pataraCase
 3. npm install
 4. npm run dev
-
+```
 ![Patara](./public/pataraCase.png)
