@@ -22,6 +22,24 @@ const fadeInRight = {
   },
 };
 const Hero = () => {
+  const customCardsData = [
+  { imageSrc: "/icons/hand.png", title: "Total Earned Free", value: "$1.000.00" },
+  { imageSrc: "/icons/snow.png", title: "Unclaimed Free", value: "$500.00", button: true },
+  { imageSrc: "/icons/suprise.png", title: "Total Referral Points", value: "1289" },
+  { imageSrc: "/icons/user.png", title: "Referrals", value: "34" },
+];
+
+const customCards = customCardsData.map((card, index) => (
+  <motion.div
+    key={card.title}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ delay: 0.3 + index * 0.1 }}
+    variants={fadeInRight}
+  >
+    <CustomCard {...card} />
+  </motion.div>
+));
   return (
     <div className="flex flex-col md:flex-row gap-4 px-4 w-full">
       <div className="flex-1 bg-[var(--color-gray)] py-10 rounded-3xl flex flex-col lg:flex-row items-center justify-around w-full overflow-hidden">
@@ -101,23 +119,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col justify-around md:justify-between gap-6 md:gap-0   ">
-        <CustomCard
-          imageSrc="/icons/hand.png"
-          title="Total Earned Free"
-          value="$1.000.00"
-        />
-        <CustomCard
-          imageSrc="/icons/snow.png"
-          title="Unclaimed Free"
-          value="$500.00"
-          button={true}
-        />
-        <CustomCard
-          imageSrc="/icons/suprise.png"
-          title="Total Referral Points"
-          value="1289"
-        />
-        <CustomCard imageSrc="/icons/user.png" title="Referrals" value="34" />
+        {customCards}
       </div>
     </div>
   );
