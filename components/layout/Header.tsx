@@ -1,5 +1,4 @@
 'use client'
-
 import { Menu, Bell, Settings } from 'lucide-react'
 import { useRouter } from 'next/router'
 import { Button } from '@/components/ui/button'
@@ -32,7 +31,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Hidden search and buttons for small screens */}
       <div className="hidden md:flex flex-1 justify-center">
         <div className="w-full max-w-[29rem]">
           <SearchInput />
